@@ -21,7 +21,7 @@ This attempts to stay as closely to the original spree frontend markup as possib
 Installation
 -------
 
-**WARNING: Master branch is actively developed against spree edge, use a stable branch for production!**
+**WARNING: This is a branch in development!**
 
 Add the following to your gemfile
 

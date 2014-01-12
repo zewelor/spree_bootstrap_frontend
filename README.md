@@ -21,7 +21,7 @@ This attempts to stay as closely to the original spree frontend markup as possib
 Installation
 -------
 
-**WARNING: The master branch is currently built against spree edge!**
+**WARNING: Master branch is actively developed against spree edge, use a stable branch for production!**
 
 Add the following to your gemfile
 
@@ -43,7 +43,7 @@ If you are running a stable branch of spree check if there is a compatible branc
 gem 'spree_bootstrap_frontend', github: '200Creative/spree_bootstrap_frontend', branch: '2-2-stable'
 ```
 
-I’m targeting creating a stable branch when spree `2-2-stable` is released, but as of now master is on `2.2.0.beta`. Stay tuned. Currenly only tested against rails 4.x.
+Only use branches marked as `-stable` in production, any others are likely to be short-lived.
 
 Customizing
 -------
@@ -61,7 +61,7 @@ $navbar-default-color: $light-orange;
 @import "bootstrap";
 ```
 
-This uses the [bootstrap-sass](https://github.com/thomas-mcdonald/bootstrap-sass) gem. So check there for full cutomization instructions.
+This uses the [bootstrap-sass](https://github.com/twbs/bootstrap-sass) gem. So check there for full cutomization instructions.
 
 It’s quite powerful, here are some examples created in ~10 minutes with a few extra SCSS variables, no actual css edits required:
 

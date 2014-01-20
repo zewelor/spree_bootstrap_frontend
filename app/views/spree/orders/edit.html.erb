@@ -18,8 +18,8 @@
           <%= render :partial => 'form', :locals => { :order_form => order_form } %>
         </div>
 
-        <div id="subtotal" data-hook class="col-md-6 pull-right text-right">
-          <h5><%= Spree.t(:subtotal) %>: <span class="order-total"><%= @order.display_total.to_html %></span></h5>
+        <div id="subtotal" data-hook class="well col-md-12 text-right">
+          <%= Spree.t(:subtotal) %>: <span class="lead text-primary order-total"><%= @order.display_total.to_html %></span>
         </div>
 
         <div class="links col-md-6 navbar-form pull-right text-right" data-hook="cart_buttons">

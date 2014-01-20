@@ -36,7 +36,7 @@
 // -- Spree Layout Custom Rules -------------------------
 
 //TODO, bug #6
-.alert-error { .alert-danger{}; }
+.alert-error, .alert-registration_error { .alert-danger{}; }
 .alert-alert { .alert-info{}; }
 
 .product-body {

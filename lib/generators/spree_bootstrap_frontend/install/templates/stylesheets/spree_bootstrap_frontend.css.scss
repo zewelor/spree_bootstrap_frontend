@@ -1,3 +1,5 @@
+//Add your custom bootstrap variables here, see https://github.com/twbs/bootstrap-sass/blob/master/vendor/assets/stylesheets/bootstrap/_variables.scss for full list of variables.
+
 @import "bootstrap";
 
 // -- Spree Custom Header and Footer ---------------------
@@ -36,8 +38,8 @@
 // -- Spree Layout Custom Rules -------------------------
 
 //TODO, bug #6
-.alert-error, .alert-registration_error { .alert-danger{}; }
-.alert-alert { .alert-info{}; }
+.alert-error, .alert-registration_error { @extend .alert-danger; }
+.alert-alert { @extend .alert-info; }
 
 .product-body {
   height: 170px;

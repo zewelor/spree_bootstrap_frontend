@@ -28,7 +28,7 @@
         <div id="product-price">
           <h3 class="product-section-title"><%= Spree.t(:price) %></h3>
           <div>
-            <span class="lead" itemprop="price">
+            <span class="lead price" itemprop="price">
               <%= display_price(@product) %>
             </span>
             <span itemprop="priceCurrency" content="<%= @product.currency %>"></span>

@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   # This is technically still being used for the controllers, and possibly some views.
   # Javascript was being used also, but I've moved that over to fix specs.
   # Will drop this after they've been ported, but I'd rather just merge this directly into Spree.
-  s.add_runtime_dependency 'spree_frontend',           '~> 2.3.0.beta'
+  s.add_runtime_dependency 'spree_frontend',           '~> 2.2.0'
 
   s.add_development_dependency 'capybara',             '~> 2.1'
   s.add_development_dependency 'capybara-accessible'

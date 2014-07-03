@@ -60,7 +60,7 @@ describe "viewing products" do
 
     it 'display title from taxon root and taxon name' do
       visit '/t/category/super-clothing/t-shirts'
-      page.should have_title("Category - T-Shirts - #{Spree::Store.default.name}")
+      page.should have_title("Category - T-Shirts - #{Spree::Config[:site_name]}")
     end
 
     # Regression test for #2814

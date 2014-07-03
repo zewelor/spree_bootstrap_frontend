@@ -1,6 +1,6 @@
 # Spree Bootstrap (Frontend)
 
-[![Build Status](https://api.travis-ci.org/200Creative/spree_bootstrap_frontend.png?branch=master)](https://travis-ci.org/200Creative/spree_bootstrap_frontend)
+[![Build Status](https://api.travis-ci.org/200Creative/spree_bootstrap_frontend.png?branch=2-3-stable)](https://travis-ci.org/200Creative/spree_bootstrap_frontend)
 [![Code Climate](https://codeclimate.com/github/200Creative/spree_bootstrap_frontend.png)](https://codeclimate.com/github/200Creative/spree_bootstrap_frontend)
 
 ### Switches out [Spree](https://github.com/spree/spree)’s entire frontend for a bootstrap 3 powered frontend.
@@ -35,10 +35,10 @@ Installation
 
 **NOTE: The master branch is developed agaist edge. Use a stable branch for production.**
 
-Add the following to your gemfile. The currenly supported and updated branches are `master` (edge) and `2-2-stable`
+Add the following to your gemfile. The currently supported and updated branches are `master` (edge), `2-2-stable`, and `2-3-stable`.
 
 ```ruby
-gem 'spree_bootstrap_frontend', github: '200Creative/spree_bootstrap_frontend', branch: '2-2-stable'
+gem 'spree_bootstrap_frontend', github: '200Creative/spree_bootstrap_frontend', branch: '2-3-stable'
 ```
 
 And run
